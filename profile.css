@@ -1,0 +1,87 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #1a1a1a;
+}
+.main{
+    max-width: 450px;
+    max-height: 500px;
+    margin: 100px auto 0 auto;
+    display: block;
+    border-radius: 20px;
+    background-color: #283618;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 5px solid #606c38;
+}
+.profile-pic{
+    background-image: url("images/txc.jpg");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin: -80px auto 40px auto;
+    border: 5px solid #606c38;
+    border-radius: 100px;
+}
+.description{
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+#name{
+    font-size: 30px; 
+    color: white;
+}
+#title{
+    font-size: 20px;
+     color: #C9D08F;
+}
+.bio{
+   width: 400px;
+   margin: 15px auto 0 auto;
+   text-align: center;
+   color: white;
+}
+.languages{
+    display: flex;
+    width: 300px;
+    margin: 0 auto;
+    justify-content: center;
+    justify-content: space-around;
+}
+.lang{
+    border: 2px solid #C9D08F;
+    background-color: #C9D08F;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 400px;
+    margin: 20px auto 0 auto;
+}
+#youtube{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(204, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 60px;
+}
+#github{
+    text-decoration: none;
+    color:#ffffff ;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 60px;
+}
+:hover#youtube{
+    color: white;
+    background-color: rgba(255, 0, 0, 0.7);
+}
+:hover#github{
+    color:white ;
+    background-color: #1a1a1a;
+}
+
